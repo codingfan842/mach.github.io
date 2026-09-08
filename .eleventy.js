@@ -1,14 +1,6 @@
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("css");
-    eleventyConfig.addPassthroughCopy("js");
-        eleventyConfig.addPassthroughCopy("html5game");
-
     eleventyConfig.addPassthroughCopy("assets");
-        eleventyConfig.addPassthroughCopy("skins");
-
         eleventyConfig.addPassthroughCopy("src");
-
-    eleventyConfig.addPassthroughCopy("**/*.txt")
     return {
         markdownTemplateEngine: "njk"
     };
