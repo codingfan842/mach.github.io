@@ -1,0 +1,24 @@
+{
+  "name": "continuum",
+  "version": "1.0.0",
+  "description": "��W\u0000e\u0000b\u0000s\u0000i\u0000t\u0000e\u0000",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingfan842/mach.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/codingfan842/mach.github.io/issues"
+  },
+  "homepage": "https://github.com/codingfan842/mach.github.io#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}
